@@ -44,7 +44,7 @@ const App = () => {
      <div className="App">
       <Header text="React Movie Database" />
       <Search search={search} />
-      <p className="App-intro">Sharing a few of our favourite movies, utilizing the <a href="http://www.omdbapi.com">OMDB Api</a></p>
+      <p className="App-intro">Sharing a databse of most movies, utilizing the <a href="http://www.omdbapi.com">OMDB Api</a></p>
       <div className="movies">
         {loading && !errorMessage ? (
          <span>loading...</span>
